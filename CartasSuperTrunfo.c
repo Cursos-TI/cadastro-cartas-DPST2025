@@ -7,30 +7,22 @@
 int main() {
   printf("Desafio Novato Super Trunfo!\n");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  int estado1;
-  int estado2;
-  int estado3;
-  int estado4;
-  int estado5;
-  int estado6;
-  int estado7;
-  int estado8;
-
-  char codigo1[3];
-  char codigo2[3];
-  char codigo3[3];
-  char codigo3[3];
-
+  char estado;
+  char codigo;
   char cidade[30];
-
   int populacao;
-
   float area;
   float pib;
   int npt;
 
-
   // Área para entrada de dados
+  printf("Carta 1: \n");
+  printf("Digite a letra do Estado: \n");
+  scanf("%c", estado);
+  printf("Digite o Código: \n");
+  scanf("%3s", codigo);
+  printf("Digite o nome da Cidade: \n");
+  scanf("%c", cidade);
 
   // Área para exibição dos dados da cidade
 
