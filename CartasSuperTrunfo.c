@@ -27,7 +27,17 @@ int main() {
     
   // Área para entrada de dados
   printf ("Carta 1: \n");
-  
+ 
+  printf ("Didite o Estado: ");
+  scanf("%c", estado1);
+
+  printf("Digite o Código: ");
+  scanf("%s", codigo1);
+
+  printf("Digite o Nome da Cidade: ");
+  scanf("")
+
+
 
 
   
