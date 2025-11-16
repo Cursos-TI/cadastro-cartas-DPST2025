@@ -35,10 +35,19 @@ int main() {
   scanf("%s", codigo1);
 
   printf("Digite o Nome da Cidade: ");
-  scanf("")
+  fgets(cidade1, sizeof(cidade1), stdin);
 
+  printf("Digite numero de População: ");
+  scanf("%d", populacao1);
 
+  printf("Digite o Tamanho de Área em Km2: ");
+  scanf("%f", area1);
 
+  printf("Digite o PIB da Cidade: ");
+  scanf("%f", pib1);
+
+  printf("Digite o Número de Pontos Turisticos: ");
+  scanf("%d", npt1);
 
   
 
