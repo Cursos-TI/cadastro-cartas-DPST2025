@@ -26,6 +26,8 @@ int main() {
   float npt2;
     
   // Área para entrada de dados
+  
+  // Entrada de informação da CARTA 1
   printf ("Carta 1: \n");
  
   printf ("Didite o Estado: ");
@@ -48,6 +50,34 @@ int main() {
 
   printf("Digite o Número de Pontos Turisticos: ");
   scanf("%d", npt1);
+
+  // Entrada de informação da CARTA 2
+
+  printf ("Carta 2: \n");
+
+  prinf("Digite o Estado: ");
+  scanf("%c", estado2);
+
+  print("Digite o Código: ");
+  scanf("%s", codigo2);
+
+  printf("Digite o Nome da Cidade: ");
+  fgets(cidade2, sizeof(cidade2), stdin);
+
+  printf("Digite numero de População: ");
+  scanf("%d", populacao2);
+
+  printf("Digite o Tamanho de Área em Km2: ");
+  scanf("%f", area2);
+
+  printf("Digite o PIB da Cidade: ");
+  scanf("%f", pib2);
+
+  printf("Digite o Número de Pontos Turisticos: ");
+  scanf("%d", npt2);
+
+
+
 
   
 
